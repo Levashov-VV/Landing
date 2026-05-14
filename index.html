@@ -1,0 +1,578 @@
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Клуб Четырёх Коней — Международный васюкинский турнир по шахматам. Превратите уездный город в столицу земного шара."
+		/>
+		<title>Клуб четырёх коней</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<!--  ШАПКА  -->
+		<header class="header">
+			<div class="header__container">
+				<a href="#hero" class="header__logo">
+					<img
+						src="./assets/icons/logo.svg"
+						alt="Логотип клуба четырёх коней"
+						width="245"
+						height="36"
+					/>
+				</a>
+			</div>
+		</header>
+		<main>
+			<!--  HERO  -->
+			<section class="hero" id="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">
+							<span class="hero__title-line hero__title-line--1"
+								>Превратите</span
+							>
+							<span class="hero__title-line hero__title-line--2"
+								>уездный город</span
+							>
+							<span class="hero__title-line hero__title-line--3"
+								>в столицу</span
+							>
+							<span class="hero__title-line hero__title-line--4"
+								>земного шара</span
+							>
+						</h1>
+						<p class="hero__subtitle">
+							Оплатите взнос на телеграммы для организации Международного
+							<span class="nowrap">васюкинского турнира по шахматам</span>
+						</p>
+						<div class="hero__buttons">
+							<a href="#event" class="btn btn--primary">
+								Поддержать<br />
+								шахматную мысль
+							</a>
+							<a href="#stages" class="btn btn--outline"
+								>Подробнее <br />
+								о турнире</a
+							>
+						</div>
+					</div>
+					<div class="hero__visual">
+						<div class="hero__circle">
+							<img
+								src="./assets/images/hero-circle.webp"
+								alt=""
+								width="660"
+								height="660"
+								loading="eager"
+							/>
+							<img
+								class="hero__circle-label"
+								src="./assets/images/hero-text.webp"
+								alt=""
+								width="634"
+								height="634"
+								loading="eager"
+							/>
+						</div>
+						<img
+							class="hero__city"
+							src="./assets/images/hero-city.webp"
+							alt="Город Васюки"
+							width="1623"
+							height="452"
+							loading="lazy"
+						/>
+						<img
+							class="hero__city--border"
+							src="./assets/images/path.webp"
+							alt="Город Васюки"
+							width="1623"
+							height="452"
+							loading="lazy"
+						/>
+						<img
+							class="hero__piece hero__piece--queen"
+							src="./assets/images/hero-queen.webp"
+							alt=""
+							width="113"
+							height="252"
+							loading="lazy"
+						/>
+						<img
+							class="hero__piece hero__piece--horse"
+							src="./assets/images/hero-horse.webp"
+							alt=""
+							width="153"
+							height="243"
+							loading="lazy"
+						/>
+						<img
+							class="hero__piece hero__piece--pawn"
+							src="./assets/images/hero-pawn.webp"
+							alt=""
+							width="82"
+							height="122"
+							loading="lazy"
+						/>
+						<img
+							class="hero__piece hero__piece--king"
+							src="./assets/images/hero-king.webp"
+							alt=""
+							width="103"
+							height="255"
+							loading="lazy"
+						/>
+					</div>
+				</div>
+			</section>
+			<!--  БЕГУЩАЯ СТРОКА  -->
+			<div class="running-line" aria-hidden="true">
+				<div class="running-line__track">
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+				</div>
+			</div>
+			<!--  СОБЫТИЕ  -->
+			<section class="event" id="event">
+				<div class="event__container">
+					<div class="event__lecture">
+						<!-- DESKTOP версия  -->
+						<div class="event__lecture-text event__lecture-text--desktop">
+							<p class="event__lecture-announce reveal">
+								Чтобы поддержать Международный васюкинский турнир посетите
+								лекцию на тему:
+							</p>
+							<p class="event__lecture-title reveal" data-delay="2">
+								&laquo;Плодотворная дебютная идея&raquo;
+							</p>
+						</div>
+
+						<!-- MOBILE версия -->
+						<div class="event__lecture-text event__lecture-text--mobile">
+							<p class="event__lecture-announce reveal">
+								Чтобы поддержать Международный васюкинский турнир
+							</p>
+							<img
+								class="event__lecture-photo event__lecture-photo--mobile reveal--left reveal"
+								src="./assets/images/event-photo.webp"
+								alt="Участники шахматного турнира"
+								width="394"
+								height="250"
+								loading="lazy"
+							/>
+							<p class="event__lecture-announce--sub">
+								посетите лекцию на тему:
+							</p>
+							<p class="event__lecture-title reveal" data-delay="2">
+								&laquo;Плодотворная дебютная идея&raquo;
+							</p>
+						</div>
+						<img
+							class="event__lecture-photo event__lecture-photo--desktop reveal--left reveal"
+							src="./assets/images/event-photo.webp"
+							alt="Участники шахматного турнира"
+							width="394"
+							height="250"
+							loading="lazy"
+						/>
+					</div>
+					<div class="event__seance">
+						<img
+							class="event__seance-photo reveal--left reveal"
+							src="./assets/images/member-avatar.webp"
+							alt="Гроссмейстер О. Бендер"
+							width="474"
+							height="527"
+							loading="lazy"
+						/>
+						<div class="event__seance-info">
+							<h2 class="event__seance-title reveal" data-delay="1">
+								И сеанс
+								<span class="text-accent"
+									>одновременной игры в шахматы на 160 досках</span
+								>
+								гроссмейстера О. Бендера
+							</h2>
+							<table class="event__table reveal" data-delay="2">
+								<tbody>
+									<tr>
+										<td>Место проведения:</td>
+										<td>Клуб &laquo;Картонажник&raquo;</td>
+									</tr>
+									<tr>
+										<td>Дата и время мероприятия:</td>
+										<td>22 июня 1927 г. в 18:00</td>
+									</tr>
+									<tr>
+										<td>Стоимость входных билетов:</td>
+										<td>20 коп.</td>
+									</tr>
+									<tr>
+										<td>Плата за игру:</td>
+										<td>50 коп.</td>
+									</tr>
+									<tr>
+										<td>Взнос на телеграммы:</td>
+										<td><s>100 руб.</s> 21 руб. 16 коп.</td>
+									</tr>
+								</tbody>
+							</table>
+							<a class="event__link reveal" data-delay="3" href="#">
+								По всем вопросам обращаться
+								<span class="event__link-nowrap"
+									>в администрацию к К. Михельсону</span
+								>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--  ЭТАПЫ ПРЕОБРАЖЕНИЯ  -->
+			<section class="stages" id="stages">
+				<div class="stages__container">
+					<div class="stages__header">
+						<h2 class="stages__title reveal">Этапы преображения Васюков</h2>
+						<p class="stages__subtitle reveal" data-delay="1">
+							Будущие источники<br />
+							обогащения васюкинцев
+						</p>
+						<p class="stages__subtitle--mobile reveal" data-delay="1">
+							Будущие источники обогащения <br />васюкинцев
+						</p>
+					</div>
+					<div class="stages__grid">
+						<div class="stages__card reveal" data-delay="1">
+							<span class="stages__number">1</span>
+							<p class="stages__text">
+								Строительство железнодорожной магистрали Москва-Васюки
+							</p>
+						</div>
+						<div class="stages__card reveal" data-delay="2">
+							<span class="stages__number">2</span>
+							<p class="stages__text">
+								Открытие фешенебельной гостиницы &laquo;Проходная пешка&raquo; и
+								других небоскрёбов
+							</p>
+						</div>
+						<div class="stages__card reveal" data-delay="3">
+							<span class="stages__number">3</span>
+							<p class="stages__text">
+								Поднятие сельского хозяйства в радиусе<br />
+								на тысячу километров: производство овощей, фруктов, икры,
+								шоколадных<br />
+								конфет
+							</p>
+						</div>
+						<div class="stages__card reveal" data-delay="4">
+							<span class="stages__number">4</span>
+							<p class="stages__text">Строительство дворца для турнира</p>
+						</div>
+						<div class="stages__card stages__card--accent reveal" data-delay="5">
+							<span class="stages__number">5</span>
+							<p class="stages__text">
+								Размещение гаражей для гостевого автотранспорта
+							</p>
+						</div>
+						<div class="stages__card reveal" data-delay="6">
+							<span class="stages__number">6</span>
+							<p class="stages__text">
+								Постройка сверхмощной радиостанции для передачи всему миру
+								сенсационных результатов
+							</p>
+						</div>
+						<div class="stages__card stages__card--wide reveal" data-delay="7">
+							<span class="stages__number">7</span>
+							<p class="stages__text">
+								Создание аэропорта &laquo;Большие Васюки&raquo;<br />
+								с регулярным отправлением почтовых самолётов и дирижаблей во все
+								концы света, включая Лос-Анжелос и Мельбурн
+							</p>
+						</div>
+					</div>
+					<div class="stages__slider">
+						<div class="stages__track">
+							<!-- Слайд 1 -->
+							<div class="stages__slide">
+								<div class="stages__slide-card">
+									<div class="stages__slide-item">
+										<span class="stages__number">1</span>
+										<p class="stages__text">
+											Строительство железнодорожной магистрали Москва-<br />Васюки
+										</p>
+									</div>
+									<div class="stages__slide-item">
+										<span class="stages__number">2</span>
+										<p class="stages__text">
+											Открытие фешенебельной гостиницы «Проходная пешка» и
+											других небоскрёбов
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 2 -->
+							<div class="stages__slide">
+								<div class="stages__slide-card">
+									<div class="stages__slide-item">
+										<span class="stages__number">3</span>
+										<p class="stages__text">
+											Поднятие сельского хозяйства в радиусе на тысячу
+											километров: производство овощей, фруктов, икры, шоколадных
+											конфет
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 3 -->
+							<div class="stages__slide">
+								<div class="stages__slide-card">
+									<div class="stages__slide-item">
+										<span class="stages__number">4</span>
+										<p class="stages__text">Строительство дворца для турнира</p>
+									</div>
+									<div class="stages__slide-item">
+										<span class="stages__number">5</span>
+										<p class="stages__text">
+											Размещение гаражей для гостевого автотранспорта
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 4 -->
+							<div class="stages__slide">
+								<div class="stages__slide-card">
+									<div class="stages__slide-item">
+										<span class="stages__number">6</span>
+										<p class="stages__text">
+											Постройка сверхмощной радиостанции для передачи всему миру
+											сенсационных результатов
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<!-- Слайд 5 -->
+							<div class="stages__slide">
+								<div class="stages__slide-card">
+									<div class="stages__slide-item">
+										<span class="stages__number">7</span>
+										<p class="stages__text">
+											Создание аэропорта «Большие Васюки» с регулярным
+											отправлением почтовых самолётов и дирижаблей во все концы
+											света, включая Лос-Анжелос и Мельбурн
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="stages__controls">
+						<button
+							class="stages__btn stages__btn--prev"
+							aria-label="Предыдущий слайд"
+						>
+							<svg width="32" height="32" viewBox="0 0 24 25" fill="none">
+								<path
+									d="M15 18L9 12L15 6"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+
+						<div class="stages__dots">
+							<button
+								class="stages__dot is-active"
+								aria-label="Слайд 1"
+							></button>
+							<button class="stages__dot" aria-label="Слайд 2"></button>
+							<button class="stages__dot" aria-label="Слайд 3"></button>
+							<button class="stages__dot" aria-label="Слайд 4"></button>
+							<button class="stages__dot" aria-label="Слайд 5"></button>
+						</div>
+
+						<button
+							class="stages__btn stages__btn--next"
+							aria-label="Следующий слайд"
+						>
+							<svg width="32" height="32" viewBox="0 0 22.5 22.5" fill="none">
+								<path
+									d="M9 6L15 12L9 18"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+					</div>
+					<img
+						class="stages__plane"
+						src="./assets/images/stages-plane.webp"
+						alt="Самолет"
+						width="376"
+						height="140"
+						loading="lazy"
+					/>
+				</div>
+			</section>
+			<!--  УЧАСТНИКИ ТУРНИРА   -->
+			<section class="members reveal" id="members">
+				<div class="members__container">
+					<div class="members__header">
+						<h2 class="members__title">Участники турнира</h2>
+
+						<div class="members__controls members__controls--desktop">
+							<button
+								class="members__btn members__btn--prev"
+								aria-label="Предыдущий"
+							>
+								<svg width="32" height="32" viewBox="0 0 24 25" fill="none">
+									<path
+										d="M15 18L9 12L15 6"
+										stroke="currentColor"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</button>
+
+							<span class="members__counter">
+								<span class="members__counter-current">3</span>
+								<span class="members__counter-separator">/</span>
+								<span class="members__counter-total">6</span>
+							</span>
+
+							<button
+								class="members__btn members__btn--next"
+								aria-label="Следующий"
+							>
+								<svg width="32" height="32" viewBox="0 0 22.5 22.5" fill="none">
+									<path
+										d="M9 6L15 12L9 18"
+										stroke="currentColor"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round"
+									/>
+								</svg>
+							</button>
+						</div>
+					</div>
+
+					<div class="members__slider">
+						<div class="members__track"></div>
+					</div>
+					<div class="members__controls members__controls--mobile">
+						<button
+							class="members__btn members__btn--prev-mobile"
+							aria-label="Предыдущий"
+						>
+							<svg width="32" height="32" viewBox="0 0 24 25" fill="none">
+								<path
+									d="M15 18L9 12L15 6"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+
+						<span class="members__counter">
+							<span class="members__counter-current-mobile">1</span>
+							<span class="members__counter-separator">/</span>
+							<span class="members__counter-total-mobile">6</span>
+						</span>
+
+						<button
+							class="members__btn members__btn--next-mobile"
+							aria-label="Следующий"
+						>
+							<svg width="32" height="32" viewBox="0 0 22.5 22.5" fill="none">
+								<path
+									d="M9 6L15 12L9 18"
+									stroke="currentColor"
+									stroke-width="1.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</section>
+			<!--  БЕГУЩАЯ СТРОКА  -->
+			<div class="running-line" aria-hidden="true">
+				<div class="running-line__track">
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+					<span class="running-line__text"
+						>СПАСЕНИЕ УТОПАЮЩИХ — ДЕЛО РУК САМИХ УТОПАЮЩИХ! &nbsp;&bull;&nbsp;
+						ШАХМАТЫ ДВИГАЮТ ВПЕРЁД НЕ ТОЛЬКО КУЛЬТУРУ, НО И ЭКОНОМИКУ!
+						&nbsp;&bull;&nbsp; ЛЁД ТРОНУЛСЯ, ГОСПОДА ПРИСЯЖНЫЕ ЗАСЕДАТЕЛИ!
+						&nbsp;&bull;&nbsp;</span
+					>
+				</div>
+			</div>
+		</main>
+		<!--  ФУТЕР  -->
+		<footer class="footer">
+			<div class="footer__container">
+				<p class="footer__disclaimer">
+					Все персонажи, события и цитаты являются вымышленными и не принадлежат
+					создателям сайта. С подробностями можно познакомиться в главе XXXIV
+					романа Ильи Ильфа и Евгения Петрова &laquo;Двенадцать стульев&raquo;.
+				</p>
+			</div>
+		</footer>
+		<script src="./js/members.js"></script>
+		<script src="./js/stages.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>

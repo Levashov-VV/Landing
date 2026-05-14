@@ -1,0 +1,33 @@
+:root {
+	/*  ЦВЕТА  */
+	--color-text-primary: #313131;
+	--color-text-white: #ffffff;
+	--color-text-dark: #1f1f1f;
+	--color-text-accent: #f54932;
+	--color-text-link: #3057a2;
+	--color-text-title: #6b6b6b;
+
+	--color-bg: #ffffff;
+	--color-bg-card: #d9d9d9;
+	--color-bg-footer: #e9ede4;
+
+	--color-btn-primary: #1f1f1f;
+	--color-btn-primary-hover: #fbce51;
+	--color-btn-outline-hover: #1f1f1f;
+	--color-btn-disabled: #d6d6d6;
+
+	--color-running-line-bg: #f54932;
+
+	--color-table-td: #d0d0d0;
+
+	/*  ШРИФТЫ  */
+	--font-primary: 'Merriweather', serif;
+	--font-secondary: 'Golos Text', sans-serif;
+
+	/*  РАЗМЕРЫ  */
+	--container-width: 1222px;
+	--container-padding: 0 24px;
+
+	/*  ПЕРЕХОДЫ  */
+	--transition-base: 0.3s ease;
+}

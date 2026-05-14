@@ -1,0 +1,115 @@
+@import './base/variables.css';
+@import './base/reset.css';
+
+@import './components/header.css';
+@import './components/hero.css';
+@import './components/event.css';
+@import './components/stages.css';
+@import './components/members.css';
+@import './components/footer.css';
+@import './components/running-line.css';
+
+/* ШРИФТЫ */
+@font-face {
+	font-family: 'Golos Text';
+	src: url('../assets/fonts/Golos_Text/GolosText-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Golos Text';
+	src: url('../assets/fonts/Golos_Text/GolosText-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Golos Text';
+	src: url('../assets/fonts/Golos_Text/GolosText-SemiBold.woff2')
+		format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Golos Text';
+	src: url('../assets/fonts/Golos_Text/GolosText-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* MERRIWEATHER  */
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather_24pt-Regular.woff2')
+		format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather_24pt-Bold.woff2')
+		format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*  АНИМАЦИЯ СКРОЛЛА  */
+.reveal {
+	opacity: 0;
+	transform: translateY(32px);
+	transition:
+		opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+		transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.reveal[data-delay='1'] {
+	transition-delay: 0.1s;
+}
+.reveal[data-delay='2'] {
+	transition-delay: 0.2s;
+}
+.reveal[data-delay='3'] {
+	transition-delay: 0.3s;
+}
+.reveal[data-delay='4'] {
+	transition-delay: 0.4s;
+}
+.reveal[data-delay='5'] {
+	transition-delay: 0.5s;
+}
+
+.reveal--left {
+	transform: translateX(-28px);
+}
+.reveal--left.is-visible {
+	transform: translateX(0);
+}
+
+.reveal--right {
+	transform: translateX(28px);
+}
+.reveal--right.is-visible {
+	transform: translateX(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.reveal {
+		opacity: 1;
+		transform: none;
+		transition: none;
+	}
+}

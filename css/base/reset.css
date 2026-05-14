@@ -1,0 +1,92 @@
+/* Сброс отступов и размеров */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Корректное поведение шрифтов */
+html {
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	font-family: var(--font-primary);
+	color: var(--color-text-primary);
+	background-color: var(--color-bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-x: hidden;
+}
+
+/* Изображения не вылезают за контейнер */
+img,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Кнопки и инпуты наследуют шрифт */
+button,
+input,
+select,
+textarea {
+	font: inherit;
+	color: inherit;
+}
+
+/* Кнопка без стилей браузера */
+button {
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+
+/* Ссылки без подчёркивания */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Списки без маркеров */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Таблица без двойных границ */
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* Заголовки без переносов на неудобных местах */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+/* Параграфы  */
+p {
+	text-wrap: pretty;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
