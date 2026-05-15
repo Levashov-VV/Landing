@@ -19,11 +19,4 @@
 	document.querySelectorAll('.reveal').forEach(el => {
 		revealObserver.observe(el)
 	})
-
-	document.querySelectorAll('*').forEach(el => {
-		const rect = el.getBoundingClientRect()
-		if (rect.right > window.innerWidth + 1) {
-			console.log('overflow:', el, rect.right, window.innerWidth)
-		}
-	})
 })()
